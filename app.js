@@ -1,5 +1,5 @@
 
-
+let navCounter = 0;
 
 
 const navBackground = document.getElementById("navBackground");
@@ -12,11 +12,28 @@ const contentText = document.querySelector(".slide");
 
 function navFunction (){
   
-
+navCounter ++;
 
 navBackground.classList.toggle("navClose");
 
-scroll
+/* Prevent scroll */
+
+function disableScrolling(){
+  var x=window.scrollX;
+  var y=window.scrollY;
+  window.onscroll=function(){window.scrollTo(x, y);};
+}
+
+disableScrolling();
+
+function enableScrolling(){
+  window.onscroll=function(){};
+}
+
+if(navCounter % 2 == 0){
+
+  enableScrolling();
+}
 
     
   
@@ -54,6 +71,10 @@ const bottomOfPage = window.innerHeight * 0.9;
         contentText.classList.add("appear")
     }
 }
+
+
+
+
 
 
 
