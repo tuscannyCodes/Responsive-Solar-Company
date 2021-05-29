@@ -1,17 +1,36 @@
 
 
 
-const hamburger = document.getElementsByClassName("hamburger");
 
 const navBackground = document.getElementById("navBackground");
 
 const hamburgerLines = document.getElementsByClassName("line");
 const contentText = document.querySelector(".slide");
 
+/*-----HIDDEN NavFunction*/
 
 
+function navFunction (){
+  
 
 
+navBackground.classList.toggle("navClose");
+
+scroll
+
+    
+  
+
+   /* if (document.getElementById("navBackground").style.marginLeft="0em") {
+
+        document.getElementById("navBackground").style.marginLeft="30em";
+    };*/
+  /*const hamburger = document.getElementsByClassName("hamburger");
+
+
+  hamburger.classlist.toggle("navClose");*/
+  
+}
 
 
 
@@ -35,6 +54,7 @@ const bottomOfPage = window.innerHeight * 0.9;
         contentText.classList.add("appear")
     }
 }
+
 
 
 
