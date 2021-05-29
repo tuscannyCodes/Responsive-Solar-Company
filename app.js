@@ -1,4 +1,8 @@
 
+
+
+
+
 let navCounter = 0;
 
 
@@ -71,11 +75,3 @@ const bottomOfPage = window.innerHeight * 0.9;
         contentText.classList.add("appear")
     }
 }
-
-
-
-
-
-
-
-
