@@ -208,7 +208,6 @@
   /*---------HIDDEN NAVIGATION----*/
 
   .hamburger {
-    background-color: red;
     display: flex;
     position: absolute;
     flex-direction: column;
@@ -242,7 +241,7 @@
     background-color: rgb(16, 21, 63);
     width: 600px;
     height: 100%;
-    margin-left: 30em;
+
     z-index: 10;
     transition: all 1s ease;
   }
@@ -258,7 +257,7 @@
     background-color: rgb(16, 21, 63);
     width: 600px;
     height: 100%;
-    margin-left: 0em;
+    margin-left: 50em;
     z-index: 10;
     transition: all 1s ease;
   }
