@@ -269,6 +269,7 @@
     align-content: center;
     justify-content: center;
     margin-top: 10em;
+     margin-right: 10em;
     flex-direction: column;
     justify-content: space-between;
     list-style: none;
